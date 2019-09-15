@@ -1,6 +1,6 @@
 {
   "name": "northwind",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A northwind api",
   "main": "server.js",
   "repository": "https://github.com/danielschmitz/northwind.git",
