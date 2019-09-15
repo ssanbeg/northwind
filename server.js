@@ -7,7 +7,7 @@ fs.writeFileSync('/tmp/northwind.json', JSON.stringify(northwind()));
 const router = jsonServer.router('/tmp/northwind.json')
 
 const options = {
-  static: 'public'
+  static: __dirname + '/public'
 }
 
 const middlewares = jsonServer.defaults(options)
