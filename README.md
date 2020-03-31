@@ -11,4 +11,4 @@ $ npm install
 $ npm start
 ```
 
-
+Open http://localhost:3000 or http://localhost:3000/api/categories
