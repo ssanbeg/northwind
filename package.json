@@ -8,8 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "now-deploy": "now -p",
-    "now-start": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "faker": "^4.1.0",

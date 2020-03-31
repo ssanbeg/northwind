@@ -1,10 +1,6 @@
 const jsonServer = require('json-server')
-const fs = require('fs');
-const northwind = require('./northwind.js');
 const server = jsonServer.create()
-fs.writeFileSync('/tmp/northwind.json', JSON.stringify(northwind()));
-
-const router = jsonServer.router('/tmp/northwind.json')
+const router = jsonServer.router('northwind.json')
 
 const options = {
   static: __dirname + '/public'
